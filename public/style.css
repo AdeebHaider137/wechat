@@ -6,9 +6,9 @@
 }
 
 body {
-    background: url('/Chatbg.jpg'), #996daae5; /* Combined background image and color */
-    background-size: cover; /* Ensure the image covers the entire body */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background: url('/Chatbg.jpg'), #996daae5; 
+    background-size: cover;
+    background-repeat: no-repeat; 
     display: flex;
     align-items: center;
     justify-content: center;

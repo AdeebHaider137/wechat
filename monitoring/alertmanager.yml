@@ -1,0 +1,14 @@
+global:
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'alertmanager@gmail.com'
+  smtp_auth_username: 'user@gmail.com'
+  smtp_auth_password: 'access-code'
+
+route:
+  group_by: ['alertname']
+  receiver: 'email-alert'
+
+receivers:
+  - name: 'email-alert'
+    email_configs:
+      - to: 'receiver@gmail.com'

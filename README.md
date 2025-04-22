@@ -47,7 +47,8 @@ npm install
 
 - Prometheus scrapes metrics from Node Exporter and Blackbox Exporter.
 - Alertmanager sends email alerts for critical issues.
-![alt text](image.png)
+![alt text](![image](https://github.com/user-attachments/assets/df19e7a4-249d-43ef-a00b-0e4a2a2fbbfb)
+)
 
 
 ---
